@@ -4,3 +4,4 @@ cp ../.config/sxhkd/sxhkdrc .
 cp ../.config/polybar/config.ini .
 cp ../.config/picom/picom.sample.conf .
 cp ../.xinitrc .
+cp ../.config/alacritty/alacritty.toml .
