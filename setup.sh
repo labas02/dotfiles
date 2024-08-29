@@ -4,3 +4,5 @@ mkdir ../.config/picom ../.config/polybar ../.config/dunst
 cp bspwmrc ../.config/bspwm/
 cp sxhkdrc ../.config/sxhkd/
 cp config.ini ../.config/polybar/
+cp picom.sample.conf ../.config/picom/
+cp xinitrc ../
