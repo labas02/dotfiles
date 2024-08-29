@@ -1,0 +1,31 @@
+#launch terminal emulator 
+super + Return
+	alacritty
+
+#dmenu
+super + shift + d
+	dmenu_run
+
+#kill
+super + q
+	bspc node -c
+
+#switch to desktop with or without window
+super + {_,shift+}{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,0}' --follow
+
+#reload sxhkd
+super +{ _,shift + }r
+	pkill -usr1 -x sxhkd
+
+#fullscreen
+super + f
+	bspc node --state fullscreen || bspc node --state tiled
+
+#floating
+super + g
+	bspc node --state floating || bspc node --state tiled
+
+#turn off screen
+super + c
+	sleep 0.5;xset dpms force standby
