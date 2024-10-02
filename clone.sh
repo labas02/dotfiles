@@ -1,7 +1,11 @@
 #! /bin/bash
-cp ../.config/bspwm/bspwmrc .
-cp ../.config/sxhkd/sxhkdrc .
-cp ../.config/polybar/config.ini .
-cp ../.config/picom/picom.sample.conf .
+cp -r ../.config/bspwm .config
+cp -r ../.config/sxhkd .config
+cp -r ../.config/polybar .config
+cp -r ../.config/picom .config
 cp ../.xinitrc .
-cp ../.config/alacritty/alacritty.toml .
+cp -r ../.config/alacritty .config
+cp -r ../.config/wallpaper .config
+cp -r ../.config/nitrogen .config
+cp -r ../.config/polybar-scripts .config
+cp -r ../.config/dunst .config
