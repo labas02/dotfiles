@@ -9,3 +9,5 @@ cp -r ../.config/wallpaper .config
 cp -r ../.config/nitrogen .config
 cp -r ../.config/polybar-scripts .config
 cp -r ../.config/dunst .config
+cp /usr/local/bin/pulseaudio-control .config
+
