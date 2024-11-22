@@ -2,9 +2,13 @@
 super + Return
 	alacritty
 
-#dmenu
-super + shift + d
+#dmenu integrated gpu
+super + d
 	dmenu_run
+
+#dmenu dedicated gpu
+super + shift + d
+	dmenu_path | dmenu "$@" | xargs prime-run 
 
 #kill
 super + q
