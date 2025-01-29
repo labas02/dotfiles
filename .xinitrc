@@ -1,8 +1,5 @@
 sxhkd &
-polybar top_left &
-polybar top_center &
-polybar top_right &
-polybar bottom_right &
+polybar top &
 dunst &
 picom &
 nitrogen --restore &
